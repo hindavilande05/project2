@@ -4,11 +4,9 @@
     --light: #fff;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   }
-  
-  
+    
   /* Navigation */
-  
-  
+   
 @media(max-width: 767px){
 	#brand-logo{
 		float:left;
