@@ -47,7 +47,7 @@
 }
 
 .section2{
-	height:60vh;
+	height:70vh;
 	margin-bottom:2rem;
 	border-top: solid 3px #e6a117;
 	font-size: 0.813em;
@@ -78,18 +78,28 @@
 .section2 ul li a:hover{
 	color: #e6a117;
 	padding-left: 9px;
-}
-	
+}	
 
 .section3{
-	height:30vh;
+	height:60vh;
 	margin-bottom:2rem;
 	border-top: solid 3px #e6a117;
-	padding:3rem;
 	font-size: 0.813em;
 	line-height: 1.85;
+	padding:3rem;
 	color: #373B41;
 }
+.title{
+	text-transform: uppercase;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    font-size: 1em;
+    line-height: 1.85;
+    margin-bottom: 1.8450184502em;
+}
+
 .section3 ul li a{
 	font-size: 1em;
 	color: #ffffff;
@@ -102,6 +112,30 @@
 .section3 ul li a:hover{
 	color: #e6a117;
 	padding-left: 9px;
+}	
+
+
+.section4{
+	height:30vh;
+	margin-bottom:2rem;
+	border-top: solid 3px #e6a117;
+	padding:3rem;
+	font-size: 0.813em;
+	line-height: 1.85;
+	color: #373B41;
+}
+.section4 ul li a{
+	font-size: 1em;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #373B41;
+	display: block;
+	transition: all 0.3s ease;
+}
+.section4 ul li a:hover{
+	color: #e6a117;
+	padding-left: 9px;
 }
 
 
@@ -109,6 +143,8 @@
   grid-area: content;
   position: relative;
 }
+
+
 
 .wrapper {
 	margin:80px;
@@ -121,23 +157,18 @@
     background-color: #cfd6d2;
     color: white;
 	grid-auto-rows: minmax(75px, auto)
-	
-	
   }
   
-  .box {
-	  
+  .box {	  
    background-color: white;
    color: black;
    padding: 50px;
    font-size: 120%;
-  
 }
-
-
 .box table{
-	width:600px;
+	width:120rem;
 	height:200px;
+	margin-bottom:2rem;
 }
 .list{
 	padding:1rem;
@@ -155,33 +186,30 @@
 	position: relative;
 	overflow: visible;
 	height:400px;
-	margin-top:-60px;
-	margin-left:-40px;
-	margin-right:-40px;
 	
 }
 	
 
 .hero-overlay {
-  font-family:Inter;  
+  font-family:inter;  
   color:white; 
-  position:relative;
-  
+  position:absolute;
+  padding:2rem;
+  margin-top:8rem;
 
 }
-.hero-overlay h1{
+.hero-overlay h3{
 	
-	font-size:5vw;
-	padding:3rem;
-	text-align:right;	
+	font-size:4vw;
+	text-align:left;	
     letter-spacing: 0.50rem;
     font-weight: 700;
 }
  
-.hero-overlay h3 {
-	padding:3rem;
-	font-size:3.5vw;
-	text-align:right;
+.hero-overlay p {
+	margin-top:6rem;
+	font-size:1.5vw;
+	text-align:left;
 	color:white;
 	letter-spacing: 0.05rem;
 	&:last-of-type 
@@ -190,4 +218,7 @@
 	}
  }
 
+.content ul li{
+	padding:1rem;
+}
 
