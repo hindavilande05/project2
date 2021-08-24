@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Lande computer Edu Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Page</title>
 	
-	<link rel="stylesheet" href="css/aboutpg.css">
+	<link rel="stylesheet" href="css/about.css">
 	
-		
+		<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
@@ -21,11 +21,24 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 	<style>
+	#brand-logo{
+		right: 12px;
+	}
 	#brandName{
 		margin-left:1px;	
 		color:rgb(255,236,135);
 		font-family:times new roman;
+	}
+	
+	.hero-image {
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/img2.1.jpeg');	
+		
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
 	}
 	</style>
 	
@@ -46,12 +59,12 @@
                     <div class="navbar-collapse collapse" id="mobile_menu">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="index.html">Home</a></li>
-                          <li class=""><a href="aboutpg.html">About Us</a></li>
-                            <li><a href="courses.html" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="caret"></span></a>
+                          <li class=""><a href="#">About Us</a></li>
+                            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                   <li><a href="#">GCC-TBC</a></li>
-                                    <li><a href="#">Shorthand</a></li>
-                                    <li><a href="#">Tally</a></li>
+                                   <li><a href="gcctbc.html">GCC-TBC</a></li>
+                                    <li><a href="steno.html">Shorthand</a></li>
+                                    <li><a href="tally.html">Tally</a></li>
                                     <li><a href="#">Exam</a></li>
                                     <li><a href="#">Result</a></li>
                                 </ul>
@@ -64,7 +77,7 @@
                       
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="profile.html"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
                             <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> Login / Sign Up <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="Login.html">Login</a></li>
@@ -77,8 +90,8 @@
             </div>
         </div>
     </div>
-	
 	<!--about us section-->
+	<div class="wrapper">
 	<center><h1 class="header-line"><i>We are here to help you</i></h1><center>
 	  <div class="container" id="container1">
 	  
@@ -94,49 +107,77 @@
 						is one of the Best Computer institute in Amravati (Maharashtra ).</p>
 					</div>
 					<div class="col-lg-6" >
-						<img src="img/undrawimg.png" width="500" height="500" id="img1">
+						<img src="img/undrawimg.png" id="main-img"class="rounded-circle" alt="Cinque Terre" width="500" height="500">
 					</div>
 		</div>
 	  </div>
-	  <!--text section-->
-	  <center><h1 class="about-msce">Recognized by</h1><center>
-	  <div class="container" id="container3">
-	  
-		<div class="row" id="row4">
-					<div class="col-lg-12">
-						 <img src="img/logo_msce.png" width="200"	height="182"></img>
-					</div>
-					<div class="col-lg-12" id="about-me-text">
-						 <h1 class="text-msce">Maharashtra State Council of Examination, Pune</h1>
-					</div>
-		</div>
-	  </div>
-	  <!-- TEXT SECTION 
-	
-	<div class="middle-text">
-	
-		<p>Recognized by</p>
-		
-		<img src="logo_msce.png" width="200"	height="182"></img>
-		<h1>Maharashtra State Council of Examination, Pune</h1>
-	</div><hr>-->
-	  <!--about me section-->
-	  <center><h1 class="about-me">About Me</h1><center>
-	  <div class="container" id="container2">
-	  
-		<div class="row" id="row4">
-					<div class="col-lg-6">
-						 <img src="img/vinod.jpeg" class="rounded-circle" alt="Cinque Terre" width="500" height="500" id="img2"> 
-					</div>
-					<div class="col-lg-6" id="about-me-text">
-						<p class="hello">Hello, 
-						I’m vinod  lande, the owner and instructor at Lande Computer Education Hub. computer learning institute is established in 2008.<p>
+	 
+	  <!--Boxes Section-->
+	  <center><h1 class="about-me-text">About Us</h1></center>
+    <section class="boxes">
+        <div class="box" id="box1">
+            <img src="img/vinod.jpeg" alt="" width="300" height="300" id="img1"></img>
+         <h4><b><br>Vinod Lande</b></h4>
+		  <h5>
+          Hello, 
+						I’m vinod  lande, the owner and instructor at Lande Computer Education Hub. computer learning institute is established in 2004.<p>
 				<p>Today, Computer is everywhere. To sustain in this computer era, we must adapt the knowledge of computers and technology. We should learn skills that can create employement.
 				considering this, I came up with the idea of doing something for the students. I have started my own computer learning center at Paratwada (Amravati, MH).</p>
 				<br>
 				<p>Today, along with the GCC-TBC, Tally , Stenography courses we also provide banking services and online application center.</p>
-					</div>
+				</h5>	
+        </div>
+        <div class="box" id="box2">
+              <img src="img/sangita_lande.jpeg" alt="" width="300" height="300" id="img1">
+          <h4><b><br>Sangita Lande</b></h4> <h5>
+          <p>“I have been mentoring here since 2004. I believe that teaching is nothing but building our nation Because We are working to make students skilled and proficient. </p>
+		  <p>We give personalized training to each and every student. We are focusing to provide an up-to-date and useful knowledge so that student can work in highly 
+		  competitive world. </p>
+			<p>I am very happy with our continuous and consistent work. Today, many of the students learned from us got government jobs because of the GCC-TBC <br>
+			( computer typing ) and Shorthand  couses. They are working in various government sectors and became self-dependent.”</p>
+        </h5>
 		</div>
-	  </div>
+	</section>
+	</div>
+	 <!--Footer Section-->
+	  <footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+					</div>
+								<div class="footer-col">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Courses</a></li>
+					</ul>
+					</div>
+								<div class="footer-col">
+					<h4>Need Help?</h4>
+					<ul>
+						<li><a href="#"><span class="glyphicon glyphicon-phone-alt">&nbsp9922858184</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-envelope"></span>&nbsp &nbspvinodlande700@gmail.com</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-road"></span>&nbsp &nbspContact Us</a></li>
+					</ul>
+					</div>
+								<div class="footer-col">
+					<h4>Follow Us</h4>
+					<div class="social-links">
+						<a href="https://www.facebook.com/vinod.lande.359?comment_id=Y29tbWVudDoxMDc0MzcwNDc1OTc3NDg0XzEwNzU1MTQ0MjI1Mjk3NTY%3D" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.instagram.com/vinodlande700/" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					</div>
+				</div>
+			</div>
+	</footer>
 </body>
-</html> 
+</html>
