@@ -95,7 +95,7 @@ h1{
 .main:hover .shadowOne{
 	transform: translateY(-25px);
 }
-#abc{
+.abc{
 	padding-bottom:100px;
 	padding-top: 50px;
 }
@@ -118,6 +118,10 @@ a
 	
 	.col-md-4{
 		width: 100%;	
+	}
+	.abc{
+		padding-top:50px;
+		padding-bottom: 0px;
 	}
 }
 
