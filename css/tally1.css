@@ -1,30 +1,3 @@
-:root {
-    --primary: #ddd;
-    --dark: #333;
-    --light: #fff;
-    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-  }
-  
-  
-  /* Navigation */
-@media(max-width: 767px){
-	#brand-logo{
-		float:left;
-		
-	}
-	list1{
-		float:right;
-		align-items: right;
-	}
-}
-@media(max-width: 574px){
-	#brand-logo{
-		float:left;
-		width:25;
-		height:39;
-		
-	}
-}
 .body {
 	background-color:#cfd6d2; 
 }
@@ -110,7 +83,7 @@
 
 .section3{
 	height:30vh;
-	margin-bottom:-5rem;
+	margin-bottom:2rem;
 	border-top: solid 3px #e6a117;
 	padding:3rem;
 	font-size: 0.813em;
@@ -152,27 +125,6 @@
 	
   }
   
-  @media screen and (max-width: 700px){
-	
-	.wrapper{
-		margin-left:0px;
-	margin-right:0px;
-		grid-template-columns: 1fr;
-		grid-template-areas: "content" 
-		"sidebar";
-		
-	}
-	
-	.content {
-  grid-area: content;
-  position: relative;
-  font-size: 80%;
-}
-.section1{
-	height:40vh;
-}
-}
-  
   .box {
 	  
    background-color: white;
@@ -184,7 +136,7 @@
 
 
 .box table{
-	width:100px;
+	width:600px;
 	height:200px;
 }
 .list{
