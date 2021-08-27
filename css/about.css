@@ -44,14 +44,14 @@
 	border-radius: 50%;
 	width: 400px;
 	height: 400px;
-	border: 2px solid #fff;
-	border-color:grey;
+	border: 2px  solid #fff;
+	border-color: grey ;
 	box-shadow: 0 0 10px #333;
 }
 .rounded-circle2{
 	border-radius: 50%;
 	border: 2px solid #fff;
-	border-color:grey;
+	border-color: grey ;
 	box-shadow: 0 0 10px #333;
 }
 @keyframes mymove {
@@ -89,7 +89,10 @@
 	height: 2px;
 	background-color: #ffc600;
 	bottom: 0;
-	left: 5.6rem;	
+	left: 2.5rem;	
+}
+.header-line{
+	font-size: 30px;
 }
 }
 .row h2 {
@@ -169,7 +172,7 @@ html, body{
 	height: 2px;
 	background-color: #ffc600;
 	bottom: 0;
-	left: 16.4rem;	
+	left: 10.5rem;	
 }
 }
 @media screen and (max-width: 768px){
