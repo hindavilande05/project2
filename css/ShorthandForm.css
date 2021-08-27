@@ -14,13 +14,18 @@
 	box-shadow: -1px 1px 60px 8px gray;
 	border-radius: 25px; 
   }
-  
+/*  
   @media (max-width:600)
   {
 	  .container{
 		  margin:0px;
 	  }
+  }*/
+  @media only screen and (max-width: 600px) {
+  .container{
+	  width: 100%;
   }
+}
   
 .sub_menus ul{
 	display: grid; 
