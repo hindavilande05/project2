@@ -35,13 +35,13 @@
 .content {
   grid-area: content;
   position: relative;
-  font-size: 120%;
+  font-size: 100%;
 }
 
 
 
 .wrapper {
-	margin-left: 50px;
+	margin: 50px;
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(6, 1fr);
@@ -66,25 +66,31 @@
 @media screen and (max-width: 700px){
 	
 	.wrapper{
-		margin-left:10px;
-	margin-right:10px;
+		margin-left:-5px;
+	margin-right:-5px;
 	margin-top: 6rem;
 		grid-template-columns: 1fr;
 		grid-template-areas: "content" 
 		"sidebar";
+		width: 100%;
+		display: grid;
+    grid-gap: 20px;
 		
 	}
 	.content {
   grid-area: content;
   position: relative;
-  font-size: 100%;
+  font-size: 4vw;
+  
 }
-	.box table{
-	
-	width:30rem;
-	line-height:30px;
-	height:300px;
-	margin-bottom:2rem;
+.box {	  
+   background-color: white;
+   color: black;
+   padding: 30px;
+   margin-top: 2.9rem;
+   margin-bottom: 2rem;
+   width: 80%;
+  
 }
 }
  
@@ -94,10 +100,11 @@
    padding: 30px;
    margin-top: 2.9rem;
    margin-bottom: 4.7rem;
+  
 }
 .box table{
 	
-	width:40rem;
+	width:30rem;
 	line-height:30px;
 	height:200px;
 	margin-bottom:2rem;
@@ -119,6 +126,7 @@
 	position: relative;
 	overflow: visible;
 	height:400px;	
+	width: 100%;
 }
 .hero-overlay {
   font-family: 'Tangerine', serif;
@@ -155,13 +163,7 @@
 	text-align:justify;
 }
 
-html, body{
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-	overflow-x: hidden;
-}
+
 .sidebar {
 	grid-area: sidebar;
 	font-family: Roboto;
@@ -173,7 +175,7 @@ html, body{
 .section1{
 	height:35vh;
 	margin-bottom:2rem;
-	margin-top:-10rem;
+	margin-top:-3rem;
 	border-top: solid 3px #e6a117;
 	font-size: 0.813em;
 	padding-top: 1.615em;
@@ -279,7 +281,7 @@ html, body{
 
 .section4{
 	height:30vh;
-	margin-bottom:2rem;
+	margin-bottom:-3rem;
 	border-top: solid 3px #e6a117;
 	padding:3rem;
 	font-size: 0.813em;
@@ -298,4 +300,11 @@ html, body{
 .section4 ul li a:hover{
 	color: #e6a117;
 	padding-left: 9px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
 }
