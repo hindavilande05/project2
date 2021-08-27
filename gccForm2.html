@@ -1,24 +1,44 @@
-﻿<html>
-	<head>
-		<title>Apply for GCC-TBC Course..</title>
-		
-		<link rel="stylesheet" href="css/gccForm.css">
-		
-		<!--Form-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		
-		<!--for navigation bar -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reserve your spot for GCC-TBC Course | Addmission Details</title>
 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css\gccForm.css">
+		
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!--for navigation bar -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
 	<style>
-	#brandName{
+		#brandName{
 		margin-left:1px;	
 		color:rgb(255,236,135);
 		font-family:times new roman;
-	}
+	`	}
+		@media screen and (max-width: 400px){
+			#brandName
+			{
+			font-size:10px;
+			}
+			#brand-logo
+			{
+				float:left;
+				width:25;
+				height:39;
+			}
+		}
 	.form-control{
 		background: white;
 		border-radius: 0px;
@@ -82,26 +102,28 @@
 	background: linear-gradient(45deg, #cc0000, #660000);
 }
 
+	
 	</style>
-
+	
 </head>
-<body style="background-color:#cfd6d2">
+<body>
+
 	<!--Navigation -->
-	<div class="navbar navbar-inverse">
+<div class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="navbar-header">
                         <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                        <a href="#" class="navbar-left"  id="brand-logo"><img src="img/logo.png" width="30" height="46" ></img></a>
+                        <a href="#" class="navbar-left"  id="brand-logo"><img src="img\logo.png" width="30" height="46" ></img></a>
 						<a href="#" class="navbar-brand" id="brandName">LANDE COMPUTER HUB</a>
                     </div>
 
                     <div class="navbar-collapse collapse" id="mobile_menu">
                         <ul class="nav navbar-nav">
-							<li ><a href="index.html">Home</a></li>
-							<li class=""><a href="aboutpg.html">About Us</a></li>
-                            <li ><a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="caret"></span></a>
+                            <li class="active"><a href="index.html">Home</a></li>
+                          <li class=""><a href="about.html">About Us</a></li>
+                            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                    <li><a href="gcctbc.html">GCC-TBC</a></li>
                                     <li><a href="steno.html">Shorthand</a></li>
@@ -113,7 +135,7 @@
                             
                             <li><a href="services.html">Services</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="Contact.html">Contact Us</a></li>
                         </ul>
                       
 
@@ -132,7 +154,8 @@
         </div>
     </div>
 	
-		<div class="container">
+	
+			<div class="container">
 			<div class="row">
 			<div class="col-md-11 text-center">
 			<h1 style="font-family: Georgia; font color: solid black;"><center>Registration Form - GCC-TBC Course</center></h1>
@@ -212,7 +235,7 @@
 					<a href="gccForm1.html" class="btn btn-success" role="button"
 					style="background: linear-gradient(45deg, #000000, #1a1a1a);">Back</a>
 					<a href="#" class="btn btn-success" role="button">SUBMIT</a>
-					<a href="gccForm2.html" class="btn btn-danger" role="button">Reset</a>
+					<a href="Gcc-TbcForm.html" class="btn btn-danger" role="button">Reset</a>
 				</div>
 			  </div>
 			
@@ -236,10 +259,10 @@
 			</form>
 		 </div>
 
-		<button type="button" onclick="document.location='index.html'" >Back to Home Page</button>
+		
 	
 
 
-
-	</body>
+	
+</body>
 </html>
