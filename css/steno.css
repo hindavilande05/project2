@@ -160,6 +160,29 @@
 		padding-top: 0;
 	}
  }
+ @media screen and (max-width: 700px){
+	.hero-overlay h3{
+	position: relative;
+	font-size: 5vw;
+	}
+	.hero-overlay p{
+	position: relative;
+	font-size: 3vw;
+	}
+	
+ }
+ 
+ @media screen and (max-width: 400px){
+	.hero-overlay h3{
+	position: relative;
+	font-size: 5vw;
+	}
+	.hero-overlay p{
+	position: relative;
+	font-size: 4vw;
+	}
+	
+ }
 
 .content ul li{
 	padding:1rem;
