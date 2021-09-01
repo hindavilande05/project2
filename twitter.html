@@ -30,7 +30,11 @@
   text-decoration: none;
   margin: 5px 2px;
 }
-
+@media only screen and (max-width: 600px) {
+  .container{
+	  width: 100%;
+  }
+}
 
 </style>
 
@@ -73,10 +77,15 @@
 							</div>				
 							</label>
 						</div>
-						
-						<input type="submit" class="butt" value="LOGIN"/><br><br>
+					</form>	
+					<div class="form-group">
+					<center>
+					<a href="index.html">
+						<button class="butt">LOGIN</button><br><br>
+					</a>
 						<a href="forgotPassword.html"> Forgot your password? </a>
-					</form>
+					</center>
+					</div>
 			</div>
 		</div>
 
