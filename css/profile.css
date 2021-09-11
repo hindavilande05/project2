@@ -39,7 +39,6 @@ section{
     font-size: 2rem;
     border-radius: 5rem;
 }
-
 .btn i{
     padding:0 .5rem;
     font-size: 1.8rem;
@@ -53,22 +52,21 @@ section{
     margin:0 6rem;
     font-size: 4rem;
     padding:1rem;
-    border-bottom: .1rem solid rgb(247, 192, 13);
+    border-bottom: .1rem solid#f9ca24;
 }
 
 .heading span{
     color:var(--yellow);
 }
-
 .sidebar{
-   
     height:100%;
-    width: 40rem;
+    width:34rem;
     align-items: center;
     justify-content: center;
     flex-flow: column;
     text-align: center;
 }
+
 .sidebar .user img{
     height:17rem;
     width:17rem;
@@ -77,23 +75,16 @@ section{
     margin-bottom: 1rem;
     border:.7rem solid var(--yellow);
 }
-
 .sidebar .user .name{
     font-size: 3.5rem;
 }
-
-.sidebar .user .post{
-    font-size: 2rem; 
-}
-
 .sidebar .navbar{
     width:100%;
 }
 .sidebar .navbar ul{
     list-style: none;
-    padding:1rem 3rem;
+    
 }
-
 .sidebar .navbar ul li a{
     display: block;
     padding:1rem;
@@ -102,11 +93,9 @@ section{
     font-size: 2rem;
     border-radius: 5rem;
 }
-
 .sidebar .navbar ul li a:hover{
     background:var(--yellow);
 }
-
 
 .dashboard{
     text-align: center;
@@ -114,11 +103,7 @@ section{
     justify-content: center;
     padding:1rem 0;
 }
-.dashboard .dashicon{
-    display:inline;
-}
 .dashboard h3{
-   
     font-size: 2.5rem;
 }
 
@@ -135,14 +120,12 @@ section{
     font-size:2rem;
     padding: 1rem 0;
 }
-
 .dashboard .box-container{
     display: flex;
     flex-wrap: wrap;
     padding:2rem 0;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 .dashboard .box-container .box{
     
@@ -153,32 +136,28 @@ section{
     border-radius: 1rem;
     margin:2rem;
     overflow: hidden;
-    
     border: 2px solid var(--yellow)
 }
-
 
 .personalInfo { 
     align-items: center;
     justify-content: center;
-    padding:1rem 0;
+    padding: 0.2em, 0;
 }
-
 .personalInfo  .info{
     flex:1 1 48rem;
-    padding:2rem 1rem;
-    padding-left: 6rem;
 }
 
 .personalInfo  .info h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding:1rem 0;
     font-weight: normal;
 }
 .personalInfo  .info h3 span{
-    padding:0 .5rem;
+    padding:0 .2rem;
     color: #333;
 }
+
 .courses .box-container{
     display: flex;
     align-items: center;
@@ -187,7 +166,6 @@ section{
     padding:1rem 0;
     padding-left: 3rem;
 }
-
 .courses .box-container .box{
     width:27rem;
     margin:4rem 1rem;
@@ -195,7 +173,6 @@ section{
     border-left: .2rem solid    #f9ca24;
     position: relative;
 }
-
 .courses .box-container .box span{
     font-size: 1.3rem;
     background:#222;
@@ -207,7 +184,6 @@ section{
     font-size: 2rem;
     padding-top: 1.5rem;
 }
-
 .courses .box-container .box p{
     font-size: 1.4rem;  
     padding: 1rem 0;
@@ -242,21 +218,19 @@ section{
 .payments .paytable table{
    
     border-collapse: collapse;
-    margin-top: 4rem;
-   
+    margin-top: 2rem;
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding:1rem;
 }
 .payments tr:nth-child(even)
 {
     background-color: #f2f2f2
 }
-
 .payments .paytable h2{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
