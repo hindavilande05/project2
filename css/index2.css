@@ -226,15 +226,16 @@ div, p {
 	   text-align: center; 
 }
 
+#course-btn{
+	margin-bottom: 1rem;
+}
+
 /* Notice Board */
 
-
- 
 .admission .column1 {
   float: left;
   width: 100%;
-  padding: 0 10px;
-  
+  padding: 0 10px; 
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -283,7 +284,6 @@ body{
 }
 .container{
 	max-width:1170px;
-	
 	margin:auto;
 }
 .row{
