@@ -292,11 +292,11 @@ div, p {
 }
 
 .right{
-	width:32%;
+	width:27%;
 	float:left;
 	height:400px;
 	background:#fff;
-	margin-left:3%;
+	margin-left:2%;
 	
 }
 .main2::after{
